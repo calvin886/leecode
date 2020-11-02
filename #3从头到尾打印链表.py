@@ -16,3 +16,18 @@ class Solution:
             
         return result
         
+方法二：递归
+class Solution:
+    # 返回从尾部到头部的列表值序列，例如[1,2,3]
+    def __init__(self):
+        self.result=[]
+        
+    def printListFromTailToHead(self, listNode):
+        # write code here
+        if listNode:
+            self.printListFromTailToHead(listNode.next)
+            self.result.append(listNode.val)
+        return self.result 
+ 
+ 
+        
