@@ -29,5 +29,7 @@ class Solution:
             self.result.append(listNode.val)
         return self.result 
  
+
+！[image](https://github.com/calvin886/leecode/blob/main/1600257113-BMRLhV-image.png)
  
         
